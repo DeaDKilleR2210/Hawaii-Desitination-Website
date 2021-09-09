@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/css/main.97a76844.chunk.css",
+    "main.js": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/js/main.248524c7.chunk.js",
+    "main.js.map": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/js/main.248524c7.chunk.js.map",
+    "runtime-main.js": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/js/runtime-main.6d6677da.js",
+    "runtime-main.js.map": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/js/runtime-main.6d6677da.js.map",
+    "static/js/2.e16de6eb.chunk.js": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/js/2.e16de6eb.chunk.js",
+    "static/js/2.e16de6eb.chunk.js.map": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/js/2.e16de6eb.chunk.js.map",
+    "index.html": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/index.html",
+    "static/css/main.97a76844.chunk.css.map": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/css/main.97a76844.chunk.css.map",
+    "static/js/2.e16de6eb.chunk.js.LICENSE.txt": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/js/2.e16de6eb.chunk.js.LICENSE.txt",
+    "static/media/Page_2_B2.33644429.mp4": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/media/Page_2_B2.33644429.mp4",
+    "static/media/V1.0ee4f0e5.mp4": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/media/V1.0ee4f0e5.mp4",
+    "static/media/maui-1.f92905fe.jpg": "/DeaDKilleR2210/Hawaii-Desitination-Website.git/static/media/maui-1.f92905fe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d6677da.js",
+    "static/js/2.e16de6eb.chunk.js",
+    "static/css/main.97a76844.chunk.css",
+    "static/js/main.248524c7.chunk.js"
+  ]
+}
