@@ -24,7 +24,7 @@ class AboutPage extends Component{
                 <div className="absolute top-0 w-full h-screen bg-black bg-opacity-70">
                     <div className="p-10">
                         <div className="mt-10">
-                            <p className="text-6xl font-extrabold text-center text-gray-50">About Hawaii</p>
+                            <p className="text-4xl font-extrabold text-center xl:text-6xl text-gray-50">About Hawaii</p>
                         </div>
                     </div>
                     

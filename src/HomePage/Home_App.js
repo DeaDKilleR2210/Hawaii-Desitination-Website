@@ -46,20 +46,20 @@ class App extends Component{
                         </div>
                     </div>
                 
-                    <div className="absolute top-0 z-40 w-full h-screen bg-opacity-50 bg-gradient-to-b from-transparent to-black">
+                    <div className="absolute top-0 z-40 w-full bg-opacity-50 h-80 lg:h-screen bg-gradient-to-b from-transparent to-black">
                         <div className="p-6">
-                            <div className="ml-20 mt-28 max-w-max">
-                                <p className="font-sans font-extrabold tracking-widest uppercase text-gray-50 text-9xl">Hawaii</p>
-                                <p className="text-lg font-bold tracking-wide text-center text-gray-200">The loveliest fleet of islands that lies anchored in any ocean.</p>
+                            <div className="mx-auto max-w-max lg:mx-0 lg:ml-20 lg:mt-28 md:mt-16">
+                                <p className="font-sans font-extrabold tracking-widest uppercase text-8xl md:text-9xl lg:text-9xl text-gray-50 2xl:text-9xl">Hawaii</p>
+                                <p className="text-sm font-bold tracking-wide text-center text-gray-200 md:text-lg">The loveliest fleet of islands that lies anchored in any ocean.</p>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="absolute z-30 top-16 right-8 scroller-y">
+                    <div className="absolute z-30 hidden top-16 right-8 scroller-y lg:block ">
                         {Img_div}
                     </div>
                     
-                    <video src={beach_vid_1} autoPlay muted loop className="object-cover w-full h-screen" />
+                    <video src={beach_vid_1} autoPlay muted loop className="object-cover w-full h-80 lg:h-screen" />
                 </div>
 
                 {/* 2 */}

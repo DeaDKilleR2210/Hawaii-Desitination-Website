@@ -42,50 +42,32 @@ class Popular extends Component{
 
         const PopularPlaces = PopularPlacesData.map((Places)=>{
             return(
-                <div className="relative flex-shrink-0 w-full overflow-hidden" >
-                    <div className="absolute top-0 w-full h-100 bg-gradient-to-r from-yellow-800 via-yellow-800 to-transparent">
-                        <div className="p-10 mt-8 space-y-16">
-                            <p className="text-5xl font-extrabold tracking-wider text-gray-50">{Places.name}</p>
-                            <p className="w-1/2 text-lg text-gray-300">{Places.desc}</p>
+                <div className="relative flex-shrink-0 w-full overflow-hidden h-100" >
+                    <img src={Places.img_path} className="object-cover w-full h-full xl:float-right xl:w-1/2"  />
+                    
+                    <div className="absolute bottom-0 w-full xl:top-0 xl:h-100 bg-gradient-to-t xl:bg-gradient-to-r from-yellow-800 via-yellow-800 to-transparent">
+                        <div className="p-3 space-y-8 xl:p-10 xl:mt-8 xl:space-y-16">
+                            <p className="text-3xl font-extrabold tracking-wider xl:text-5xl xl:w-1/2 text-gray-50">{Places.name}</p>
+                            <p className="text-sm text-gray-200 xl:w-1/2 xl:text-lg">{Places.desc}</p>
                         </div>
-
-                        {/*<div className="absolute flex space-x-14 left-8 bottom-3">
-                            <div className="absolute p-2 transition-all duration-300 bg-black rounded-full cursor-pointer bg-opacity-30 hover:bg-opacity-50">
-                                <img src={Back_w} className="-ml-1 select-none w-9 h-9" />
-                            </div>
-
-                            <div className="p-3 transition-all duration-300 bg-black rounded-full cursor-pointer bg-opacity-30 hover:bg-opacity-50">
-                                <p className="text-xl font-extrabold text-gray-50">Explore more</p>
-                            </div>
-                        </div>*/}
                     </div>
             
-                    <img src={Places.img_path} className="float-right object-cover w-1/2 h-100"  />
                 </div>
             )
         })
         
         const PopularRestro = PopularRestroData.map((Restro)=>{
             return(
-                <div className="relative flex-shrink-0 w-full" >
-                    <div className="absolute top-0 w-full h-103 bg-gradient-to-r from-yellow-800 via-yellow-800 to-transparent">
-                        <div className="p-10 my-8 space-y-16 ">
-                            <p className="text-5xl font-extrabold tracking-wider text-gray-50">{Restro.name}</p>
-                            <p className="w-1/2 text-lg text-gray-300">{Restro.desc}</p>
+                <div className="relative flex-shrink-0 w-full overflow-hidden h-103" >
+                    <img src={Restro.img_path} className="float-right object-cover w-full h-100 xl:w-1/2 "  />
+                    
+                    <div className="absolute bottom-0 w-full xl:top-0 xl:h-100 bg-gradient-to-t xl:bg-gradient-to-r from-yellow-800 via-yellow-800 to-transparent">
+                        <div className="p-3 space-y-8 xl:p-10 xl:mt-8 xl:space-y-16 ">
+                            <p className="text-3xl font-extrabold tracking-wider xl:text-5xl text-gray-50">{Restro.name}</p>
+                            <p className="text-sm text-gray-200 xl:w-1/2 xl:text-lg">{Restro.desc}</p>
                         </div>
-
-                        {/*<div className="absolute flex space-x-14 left-8 bottom-3">
-                            <div className="absolute p-2 transition-all duration-300 bg-black rounded-full cursor-pointer bg-opacity-30 hover:bg-opacity-50">
-                                <img src={Back_w} className="-ml-1 select-none w-9 h-9" />
-                            </div>
-
-                            <div className="p-3 transition-all duration-300 bg-black rounded-full cursor-pointer bg-opacity-30 hover:bg-opacity-50">
-                                <p className="text-xl font-extrabold text-gray-50">Explore more</p>
-                            </div>
-                        </div>*/}
                     </div>
             
-                    <img src={Restro.img_path} className="float-right object-cover w-1/2 h-103"  />
                 </div>
             )
         })
@@ -93,8 +75,8 @@ class Popular extends Component{
         return(
             <div className="">
 
-                <div id="next_places" onClick={Slider_places} className="absolute right-0 z-40 w-16 transition-all duration-300 cursor-pointer bg-gradient-to-r from-transparent to-black h-103">
-                    <img src={Next_w} className="w-12 h-12 ml-2 select-none mt-52 " />
+                <div id="next_places" onClick={Slider_places} className="absolute right-0 z-40 w-10 transition-all duration-300 cursor-pointer xl:w-16 bg-gradient-to-r from-transparent to-black h-103">
+                    <img src={Next_w} className="w-8 h-8 ml-2 select-none xl:w-12 xl:h-12 mt-52" />
                 </div>
 
                 <div id="popular-places" className="z-30 flex flex-row">
@@ -102,8 +84,8 @@ class Popular extends Component{
                 </div>
 
                 {/*Popular Restro*/}
-                <div id="next_restro" onClick={Slider_restro} className="absolute right-0 z-40 w-16 transition-all duration-300 cursor-pointer bg-gradient-to-r from-transparent to-black h-103">
-                    <img src={Next_w} className="w-12 h-12 ml-2 select-none mt-52 " />
+                <div id="next_restro" onClick={Slider_restro} className="absolute right-0 z-40 w-10 transition-all duration-300 cursor-pointer xl:w-16 bg-gradient-to-r from-transparent to-black h-103">
+                    <img src={Next_w} className="w-8 h-8 ml-2 select-none xl:w-12 xl:h-12 mt-52 " />
                 </div>
 
                 <div id="popular-restro" className="z-30 flex flex-row">
