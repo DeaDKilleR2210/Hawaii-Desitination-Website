@@ -11,6 +11,7 @@ import Popular from "./PopularPlaces&Restro"
 class App extends Component{
     render(){
 
+
         const Img_div = Img_path.map((index)=>{
             return(
                 <div className="flex space-x-6 ">
