@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Hawaii-Desitination-Website/static/css/main.dccc3161.chunk.css",
-    "main.js": "/Hawaii-Desitination-Website/static/js/main.d5f789d9.chunk.js",
-    "main.js.map": "/Hawaii-Desitination-Website/static/js/main.d5f789d9.chunk.js.map",
+    "main.js": "/Hawaii-Desitination-Website/static/js/main.e343428f.chunk.js",
+    "main.js.map": "/Hawaii-Desitination-Website/static/js/main.e343428f.chunk.js.map",
     "runtime-main.js": "/Hawaii-Desitination-Website/static/js/runtime-main.d9694bbb.js",
     "runtime-main.js.map": "/Hawaii-Desitination-Website/static/js/runtime-main.d9694bbb.js.map",
-    "static/js/2.9dc8bd69.chunk.js": "/Hawaii-Desitination-Website/static/js/2.9dc8bd69.chunk.js",
-    "static/js/2.9dc8bd69.chunk.js.map": "/Hawaii-Desitination-Website/static/js/2.9dc8bd69.chunk.js.map",
+    "static/js/2.f91a0b3f.chunk.js": "/Hawaii-Desitination-Website/static/js/2.f91a0b3f.chunk.js",
+    "static/js/2.f91a0b3f.chunk.js.map": "/Hawaii-Desitination-Website/static/js/2.f91a0b3f.chunk.js.map",
     "index.html": "/Hawaii-Desitination-Website/index.html",
     "static/css/main.dccc3161.chunk.css.map": "/Hawaii-Desitination-Website/static/css/main.dccc3161.chunk.css.map",
-    "static/js/2.9dc8bd69.chunk.js.LICENSE.txt": "/Hawaii-Desitination-Website/static/js/2.9dc8bd69.chunk.js.LICENSE.txt",
+    "static/js/2.f91a0b3f.chunk.js.LICENSE.txt": "/Hawaii-Desitination-Website/static/js/2.f91a0b3f.chunk.js.LICENSE.txt",
     "static/media/1.90b6ac9e.jpg": "/Hawaii-Desitination-Website/static/media/1.90b6ac9e.jpg",
     "static/media/10.f9404102.jpg": "/Hawaii-Desitination-Website/static/media/10.f9404102.jpg",
     "static/media/11.4e7b343e.jpg": "/Hawaii-Desitination-Website/static/media/11.4e7b343e.jpg",
@@ -33,6 +33,7 @@
     "static/media/MWHonulu.96dc7f7d.jpg": "/Hawaii-Desitination-Website/static/media/MWHonulu.96dc7f7d.jpg",
     "static/media/Maui.8f79118b.gif": "/Hawaii-Desitination-Website/static/media/Maui.8f79118b.gif",
     "static/media/Nā Pali Coast State Wilderness Park.d957d359.jpg": "/Hawaii-Desitination-Website/static/media/Nā Pali Coast State Wilderness Park.d957d359.jpg",
+    "static/media/Page_2_B4.bfe5a8dd.mp4": "/Hawaii-Desitination-Website/static/media/Page_2_B4.bfe5a8dd.mp4",
     "static/media/White dress.c0a162be.jpg": "/Hawaii-Desitination-Website/static/media/White dress.c0a162be.jpg",
     "static/media/alang wongs honulu.421a7e29.jpg": "/Hawaii-Desitination-Website/static/media/alang wongs honulu.421a7e29.jpg",
     "static/media/chefchai.929f7a83.jpg": "/Hawaii-Desitination-Website/static/media/chefchai.929f7a83.jpg",
@@ -52,8 +53,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d9694bbb.js",
-    "static/js/2.9dc8bd69.chunk.js",
+    "static/js/2.f91a0b3f.chunk.js",
     "static/css/main.dccc3161.chunk.css",
-    "static/js/main.d5f789d9.chunk.js"
+    "static/js/main.e343428f.chunk.js"
   ]
 }
