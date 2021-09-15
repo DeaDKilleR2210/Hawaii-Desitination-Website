@@ -6,6 +6,7 @@ import beach_vid_1 from "../Files/production ID_4556163.mp4"
 import { Img_path } from "../Data/Img_scroller-y"
 import AboutPage from "./About"
 import Popular from "./PopularPlaces&Restro"
+import Footer from "./Footer"
 
 
 class App extends Component{
@@ -23,7 +24,7 @@ class App extends Component{
         }) 
 
         return(
-            <div className="">
+            <div className="overflow-hidden">
                 {/* 1 */}
                 <div className="relative overflow-hidden">
                     <div className="fixed top-0 z-50 hidden w-full h-16 bg-black bg-opacity-80 backdrop-filter backdrop-blur-md">
@@ -46,20 +47,20 @@ class App extends Component{
                         </div>
                     </div>
                 
-                    <div className="absolute top-0 z-40 w-full bg-opacity-50 h-80 lg:h-screen bg-gradient-to-b from-transparent to-black">
+                    <div className="absolute top-0 z-40 w-full bg-opacity-50 h-72 md:h-96 xl:h-screen bg-gradient-to-b from-transparent to-black">
                         <div className="p-6">
-                            <div className="mx-auto max-w-max lg:mx-0 lg:ml-20 lg:mt-28 md:mt-16">
-                                <p className="font-sans font-extrabold tracking-widest uppercase text-8xl md:text-9xl lg:text-9xl text-gray-50 2xl:text-9xl">Hawaii</p>
+                            <div className="mx-auto max-w-max xl:mx-0 xl:ml-20 xl:mt-28 md:mt-16">
+                                <p className="font-sans text-6xl font-extrabold tracking-widest text-center uppercase md:text-9xl xl:text-9xl text-gray-50 2xl:text-9xl">Hawaii</p>
                                 <p className="text-sm font-bold tracking-wide text-center text-gray-200 md:text-lg">The loveliest fleet of islands that lies anchored in any ocean.</p>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="absolute z-30 hidden top-16 right-8 scroller-y lg:block ">
+                    <div className="absolute z-30 hidden top-16 right-8 scroller-y xl:block ">
                         {Img_div}
                     </div>
                     
-                    <video src={beach_vid_1} autoPlay muted loop className="object-cover w-full h-80 lg:h-screen" />
+                    <video src={beach_vid_1} autoPlay muted loop className="object-cover w-full h-72 md:h-96 xl:h-screen" />
                 </div>
 
                 {/* 2 */}
@@ -68,12 +69,14 @@ class App extends Component{
                 </div>
 
                 {/* 2 */}
-                <div className="relative h-screen overflow-hidden">
+                <div className="relative xl:h-screen xl:overflow-hidden">
                     <Popular />
                 </div>
                 
-                
-
+                {/* 3 */}
+                <div className="">
+                    <Footer />
+                </div>
             </div>
         )
     }

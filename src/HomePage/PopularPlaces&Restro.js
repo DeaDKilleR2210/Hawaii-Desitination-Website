@@ -42,10 +42,10 @@ class Popular extends Component{
 
         const PopularPlaces = PopularPlacesData.map((Places)=>{
             return(
-                <div className="relative flex-shrink-0 w-full overflow-hidden h-100" >
+                <div className="relative flex-shrink-0 w-full overflow-hidden h-103" >
                     <img src={Places.img_path} className="object-cover w-full h-full xl:float-right xl:w-1/2"  />
                     
-                    <div className="absolute bottom-0 w-full xl:top-0 xl:h-100 bg-gradient-to-t xl:bg-gradient-to-r from-yellow-800 via-yellow-800 to-transparent">
+                    <div className="absolute bottom-0 w-full xl:top-0 xl:h-103 bg-gradient-to-t xl:bg-gradient-to-r from-yellow-800 via-yellow-800 to-transparent">
                         <div className="p-3 space-y-8 xl:p-10 xl:mt-8 xl:space-y-16">
                             <p className="text-3xl font-extrabold tracking-wider xl:text-5xl xl:w-1/2 text-gray-50">{Places.name}</p>
                             <p className="text-sm text-gray-200 xl:w-1/2 xl:text-lg">{Places.desc}</p>
@@ -59,11 +59,11 @@ class Popular extends Component{
         const PopularRestro = PopularRestroData.map((Restro)=>{
             return(
                 <div className="relative flex-shrink-0 w-full overflow-hidden h-103" >
-                    <img src={Restro.img_path} className="float-right object-cover w-full h-100 xl:w-1/2 "  />
+                    <img src={Restro.img_path} className="object-cover w-full h-full xl:float-right xl:w-1/2 "  />
                     
-                    <div className="absolute bottom-0 w-full xl:top-0 xl:h-100 bg-gradient-to-t xl:bg-gradient-to-r from-yellow-800 via-yellow-800 to-transparent">
+                    <div className="absolute bottom-0 w-full xl:top-0 xl:h-103 bg-gradient-to-t xl:bg-gradient-to-r from-yellow-800 via-yellow-800 to-transparent">
                         <div className="p-3 space-y-8 xl:p-10 xl:mt-8 xl:space-y-16 ">
-                            <p className="text-3xl font-extrabold tracking-wider xl:text-5xl text-gray-50">{Restro.name}</p>
+                            <p className="text-3xl font-extrabold tracking-wider xl:text-5xl xl:w-1/2 text-gray-50">{Restro.name}</p>
                             <p className="text-sm text-gray-200 xl:w-1/2 xl:text-lg">{Restro.desc}</p>
                         </div>
                     </div>
